@@ -1,0 +1,139 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+.header
+{
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding-left: 25px;
+    font-size: large;
+}
+.form
+{
+    display:flex;
+    border:1px black solid;
+    justify-content: space-around;
+    width:95%;
+    margin:auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(69, 143, 248, 0.027);
+    margin-top: 15px;
+    padding:10px;
+}
+
+#add-btn
+{
+   background-color: rgb(0, 0, 0);
+   width:50px;
+   height:50px;   
+   border-radius: 50%;
+   font-size: x-large;
+   font-weight: 600;
+   color:white;
+
+}
+.inputs
+{
+    width:30%;
+
+}
+.cards
+{
+    display:flex;
+    width:95%;
+    margin:auto;
+    margin-bottom: 10px;
+    justify-content: space-between;
+   
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    height :125px;
+    width: 18rem;
+}
+.card-body{
+
+    color:white;
+}
+.transaction-table
+{
+    border:1px black solid;
+    width: 950px;
+    margin:auto;
+    border-radius: 8px;
+    overflow:hidden;
+    font-weight: 600;
+    box-shadow:0px 4px 4px rgba(0,0 ,0 , 0.50);
+    padding:0px;
+
+}
+#header-row
+{
+    background-color: black;
+
+}
+#header-row th
+{
+    padding:15px 10px;
+    color:white;
+}
+.delete-button,.delete-button:hover
+{
+    background-color: black;
+    border:none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+
+}
+#totalincome
+{
+    font-size:90%;
+    font-weight: 400;
+}
+#expense
+{
+    font-size:90%;
+    font-weight: 400;
+}
+#balance
+{
+    font-size:90%;
+    font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+     .form
+     {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+        box-shadow: 0px 0px 10px rgba(0,0 ,0 , 0.50);
+     }
+     .inputs{
+        width:75%;   
+     }
+     #add-btn
+     {
+        background-color: black;
+        width:75%;  
+        border-radius: 8px;
+
+     }
+     .cards
+     {
+       display:flex;
+       width:95%;
+       margin:auto;
+       border:1px black solid;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       gap:15px;
+     }
+     .card{
+        width:150px;
+        height: 150px;
+     }
+     
+}

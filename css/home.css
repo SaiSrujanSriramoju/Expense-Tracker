@@ -1,0 +1,80 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+}
+.parent{
+    position:relative;
+    border:1px black solid;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    align-items: center;
+
+}
+.solid-circle{
+    height: 750px;
+    width:750px;
+    border-radius: 50%;
+    background:blue;
+    position:absolute;
+    right :-375px;
+    top:-120px;
+    z-index:1;
+}
+.header-home
+{
+    top:10px;
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    z-index:2;
+    width:100%;
+    padding:0px 25px;
+
+}
+#click-me-button
+{
+    background-color: white;
+    color:blue;
+    font-size:md;
+    font-weight:600;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#name
+{
+    color:blue;
+    font-size: 100px;
+}
+.input-group
+{
+    box-shadow:4px 4px opx rgba(0, 0, 0, 0.5)
+    
+}
+#login-button
+{
+    background-color: blue;
+    color:white;
+    padding:5px 25px;
+}
+.main-content{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .solid-circle{
+        background-color: black;
+        width:260px;
+        height:200px;
+        right:-120px;
+        top:-60px
+    }
+    #name{
+        color: black;
+    }
+    #login-button
+    {
+        background-color: black;
+    }
+    #click-me-button
+    {
+        color:black;
+    }
+}
