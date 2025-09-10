@@ -1,9 +1,9 @@
-EXPENSE TRACKER:
+# EXPENSE TRACKER:
 
 A simple web-based expense tracking application built with HTML, CSS, and JavaScript.
 This project helps users record their income and expenses, calculate balance, and visualize financial data in an easy-to-use interface.
 
-FEATURES:
+## FEATURES:
 
 Add and manage income and expense records
 
@@ -15,7 +15,7 @@ Clean UI with responsive design
 
 Multi-page navigation (home → tracker)
 
-TECH STACK:
+# TECH STACK:
 
 Frontend: HTML, CSS, Bootstrap
 
@@ -23,24 +23,37 @@ Logic: Vanilla JavaScript (DOM Manipulation)
 
 Version Control: Git & GitHub
 
-PROJECT STRUCTURE:
+# PROJECT STRUCTURE:
 
 expense_tracker/
+
 │── homepage/
+
 │   └── home.html
+
 │── trackerpage/
+
 │   └── tracker.html
+
 │── css/
+
 │   ├── home.css
-│   └── tracker.css							
+
+│   └── tracker.css	
+
 │── javascript/
+
 │   └── tracker.js
+
 │── images/
+
 │   ├── wallet.png
+
 │   ├── wavinghandproject.jpg
+
 │   └── ...
 └── README.md
-GETTING STARTED:
+## GETTING STARTED:
 
 1.Clone the repository
 git clone https://github.com/your-username/expense-tracker.git
@@ -55,7 +68,7 @@ Or just open in a browser
 
 3.Start tracking your expenses!
 
-📸 Screenshots
+## Screenshots
 
 Home Page
 
@@ -68,7 +81,11 @@ Tracker Page
 
 <img width="1906" height="920" alt="image" src="https://github.com/user-attachments/assets/6ce94fdc-2496-486d-ac54-70322c19f64f" />
 
-Future Improvements:
+
+<img width="1901" height="923" alt="image" src="https://github.com/user-attachments/assets/b85ccb80-d286-4a53-99ab-b8f380c3b9f0" />
+
+
+## Future Improvements:
 
 Add data visualization with charts (income vs. expense trends)
 
@@ -78,7 +95,7 @@ Multi-user support with authentication
 
 Improve responsive design for mobile users
 
-Contributing:
+## Contributing:
 
 Contributions are welcome!
 
