@@ -107,7 +107,7 @@ Commit your changes
 
 Open a pull request
 
-License:
+## License:
 
 This project is licensed under the MIT License.
 
